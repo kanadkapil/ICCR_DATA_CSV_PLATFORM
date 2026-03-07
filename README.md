@@ -48,9 +48,9 @@ The left sidebar contains reactive filters to pinpoint exactly the data you want
 
 ---
 
-### 📊 In-Depth Analytics (The 4-Tab Interface)
+### 📊 In-Depth Analytics (The 5-Tab Interface)
 
-The center console is cleanly segmented by a tab interface offering 15 dynamic charts and analytics, built leveraging Plotly!
+The center console is cleanly segmented by a tab interface offering 16 dynamic charts and analytics, built leveraging Plotly!
 
 #### 📈 Tab 1: Trends over Time
 
@@ -78,6 +78,11 @@ The center console is cleanly segmented by a tab interface offering 15 dynamic c
 
 1. **Hoverable Scatter Bubble Plot:** Maps raw selection numbers (Y) against pure availability (X), where the bubble size acts as availability and the color signifies Institutional Type!
 2. **Selection Rate (%) Visualization:** Direct calculation graph breaking down theoretical Acceptance Chances / Selection Probabilities grouped specifically by the Field of Study applied for.
+
+#### 🔮 Tab 5: Admission Predictor
+
+1. **Interactive Profile Builder:** Input custom parameters such as CGPA, Work Experience, Publication History, and relevant Certifications to test application competitiveness against historically real data!
+2. **Dynamic Waterfall Breakdown Chart:** Upon running a customized prediction query, a comprehensive Plotly bar chart is rendered tracking the positive or negative algorithmic impact values stemming from your individual profile stats.
 
 ---
 

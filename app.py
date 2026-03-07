@@ -132,12 +132,13 @@ st.divider()
 # Charts
 st.subheader("📊 Analytics")
 
-tab1, tab2, tab3, tab4 = st.tabs(
+tab1, tab2, tab3, tab4, tab5 = st.tabs(
     [
         "📈 Trends over Time",
         "🏢 University Breakdown",
         "📚 Course Analysis",
         "🔍 Advanced Comparisons",
+        "🔮 Admission Predictor",
     ]
 )
 
@@ -394,6 +395,138 @@ with tab4:
             title="Avg Selection Rate (%) by Field Category",
         )
         st.plotly_chart(fig_bar_selection_rate, use_container_width=True)
+
+with tab5:
+    st.markdown("### 🔮 Scholarship Admission Predictor")
+    st.markdown(
+        "Estimate your chances of getting admitted based on historical selection data, your academic profile, and the university competitiveness."
+    )
+
+    with st.expander("📝 Fill out your profile", expanded=True):
+        col_form1, col_form2 = st.columns(2)
+
+        with col_form1:
+            user_cgpa = st.number_input(
+                "Your CGPA (out of 10.0)",
+                min_value=0.0,
+                max_value=10.0,
+                value=8.0,
+                step=0.1,
+            )
+            user_course_lvl = st.selectbox(
+                "Target Course Level",
+                options=sorted(df["course_level"].dropna().unique().tolist()),
+            )
+            user_exp = st.number_input(
+                "Years of Work/Research Experience",
+                min_value=0,
+                max_value=20,
+                value=0,
+                step=1,
+            )
+
+        with col_form2:
+            target_university = st.selectbox(
+                "Target University",
+                options=sorted(df["university_name"].dropna().unique().tolist()),
+            )
+            user_publications = st.number_input(
+                "Number of Publications (if any)",
+                min_value=0,
+                max_value=50,
+                value=0,
+                step=1,
+            )
+            is_language_cert = st.checkbox("Have IELTS/TOEFL Certification?")
+
+    if st.button("Predict Admission Chances", type="primary"):
+        # Get historical data for the selected university and course level
+        history_df = df[
+            (df["university_name"] == target_university)
+            & (df["course_level"] == user_course_lvl)
+        ]
+
+        if len(history_df) == 0:
+            st.warning(
+                "Insufficient historical data for this specific University + Course Level combination. Showing a general estimate instead."
+            )
+            history_df = df[df["university_name"] == target_university]
+
+        if len(history_df) == 0:
+            history_df = df  # Fallback to global
+
+        # Calculate base acceptance rate from historical stats
+        total_slots = history_df["available_slots"].sum()
+        total_selected = history_df["estimated_selected_students"].sum()
+
+        base_rate = (total_selected / total_slots) if total_slots > 0 else 0.5
+
+        # Modifier limits (Algorithm simulated for estimations)
+        cgpa_mod = (user_cgpa - 7.5) * 0.1  # If cgpa is 9.5 -> +20%, if 6.0 -> -15%
+        exp_mod = min(user_exp * 0.02, 0.10)  # Up to 10% boost for experience
+        pub_mod = min(
+            user_publications * 0.03, 0.15
+        )  # Up to 15% boost for publications
+        cert_mod = 0.05 if is_language_cert else 0.0  # 5% boost for language cert
+
+        final_probability = base_rate + cgpa_mod + exp_mod + pub_mod + cert_mod
+
+        # Enforce bounds [5%, 95%]
+        final_probability = max(0.05, min(0.95, final_probability))
+
+        # Display Results
+        st.divider()
+        st.subheader("Results")
+
+        res_col1, res_col2 = st.columns([1, 2])
+
+        with res_col1:
+            st.metric(
+                "Estimated Admission Probability", f"{final_probability * 100:.1f}%"
+            )
+            if final_probability >= 0.75:
+                st.success("Excellent Chances! You have a highly competitive profile.")
+            elif final_probability >= 0.50:
+                st.info("Good Chances. You are well within the running.")
+            elif final_probability >= 0.30:
+                st.warning(
+                    "Fair Chances. Consider improving your profile or adding backup universities."
+                )
+            else:
+                st.error(
+                    "Low Chances. This is a highly competitive track for your current profile."
+                )
+
+        with res_col2:
+            st.markdown("#### Probability Factors")
+            factors = pd.DataFrame(
+                {
+                    "Factor": [
+                        "Historical Acceptance Base",
+                        "CGPA Impact",
+                        "Experience Bonus",
+                        "Publications Bonus",
+                        "Certifications Bonus",
+                    ],
+                    "Impact": [base_rate, cgpa_mod, exp_mod, pub_mod, cert_mod],
+                }
+            )
+            # Filter zero/negative impacts out conditionally or just show them
+            fig_factors = px.bar(
+                factors,
+                x="Factor",
+                y="Impact",
+                title="How Your Profile Influences Admission Chances",
+                text=[f"{v * 100:+.1f}%" for v in factors["Impact"]],
+                color="Factor",
+            )
+            fig_factors.update_layout(showlegend=False)
+            st.plotly_chart(fig_factors, use_container_width=True)
+
+        st.caption(
+            "Note: This is a simulated algorithmic prediction built for research and planning purposes. Actual admission decisions are made by university committees based on comprehensive profile reviews and available seats."
+        )
+
 
 st.divider()
 st.markdown(
