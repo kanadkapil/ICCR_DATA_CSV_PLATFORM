@@ -394,3 +394,12 @@ with tab4:
             title="Avg Selection Rate (%) by Field Category",
         )
         st.plotly_chart(fig_bar_selection_rate, use_container_width=True)
+
+st.divider()
+st.markdown(
+    "<div style='text-align: center; color: gray;'>"
+    "Developed by <b>Kanad Kapil</b><br>"
+    "GitHub: <a href='https://github.com/kanadkapil' target='_blank'>github.com/kanadkapil</a>"
+    "</div>",
+    unsafe_allow_html=True,
+)
