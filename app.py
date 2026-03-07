@@ -132,52 +132,97 @@ st.divider()
 # Charts
 st.subheader("📊 Analytics")
 
-tab1, tab2, tab3 = st.tabs(
-    ["Trends over Time", "University & State Breakdown", "Course Analysis"]
+tab1, tab2, tab3, tab4 = st.tabs(
+    [
+        "📈 Trends over Time",
+        "🏢 University Breakdown",
+        "📚 Course Analysis",
+        "🔍 Advanced Comparisons",
+    ]
 )
 
 with tab1:
-    fig1 = px.histogram(
-        filtered_df,
-        x="year",
-        y="available_slots",
-        color="scholarship_scheme",
-        title="Available Slots Over Time by Scheme",
-        barmode="group",
-    )
-    fig1.update_layout(xaxis_title="Year", yaxis_title="Total Available Slots")
-    st.plotly_chart(fig1, use_container_width=True)
-
-    grouped = (
-        filtered_df.groupby("year")
-        .agg({"available_slots": "sum", "estimated_selected_students": "sum"})
-        .reset_index()
-    )
-    fig2 = px.line(
-        grouped,
-        x="year",
-        y=["available_slots", "estimated_selected_students"],
-        title="Availability vs Estimated Selection",
-        markers=True,
-    )
-    fig2.update_layout(yaxis_title="Number of Students", xaxis_title="Year")
-    st.plotly_chart(fig2, use_container_width=True)
-
-with tab2:
-    state_counts = (
-        filtered_df.groupby("university_state")["available_slots"].sum().reset_index()
-    )
-    fig3 = px.pie(
-        state_counts,
-        values="available_slots",
-        names="university_state",
-        title="Distribution of Slots by State",
-        hole=0.4,
-    )
-    st.plotly_chart(fig3, use_container_width=True)
-
+    st.markdown("### Slot Availability and Trend Analysis")
     c1, c2 = st.columns(2)
     with c1:
+        fig1 = px.histogram(
+            filtered_df,
+            x="year",
+            y="available_slots",
+            color="scholarship_scheme",
+            title="Available Slots Over Time by Scheme",
+            barmode="group",
+        )
+        fig1.update_layout(xaxis_title="Year", yaxis_title="Total Available Slots")
+        st.plotly_chart(fig1, use_container_width=True)
+
+    with c2:
+        grouped = (
+            filtered_df.groupby("year")
+            .agg({"available_slots": "sum", "estimated_selected_students": "sum"})
+            .reset_index()
+        )
+        fig2 = px.line(
+            grouped,
+            x="year",
+            y=["available_slots", "estimated_selected_students"],
+            title="Availability vs Estimated Selection",
+            markers=True,
+        )
+        fig2.update_layout(yaxis_title="Number of Students", xaxis_title="Year")
+        st.plotly_chart(fig2, use_container_width=True)
+
+    c3, c4 = st.columns(2)
+    with c3:
+        # New Graph 1: Area Chart
+        grouped_level_yr = (
+            filtered_df.groupby(["year", "course_level"])["available_slots"]
+            .sum()
+            .reset_index()
+        )
+        fig_area_level = px.area(
+            grouped_level_yr,
+            x="year",
+            y="available_slots",
+            color="course_level",
+            title="Available Slots Trend by Course Level",
+        )
+        st.plotly_chart(fig_area_level, use_container_width=True)
+    with c4:
+        # New Graph 2: Heatmap
+        grouped_yr_cat = (
+            filtered_df.groupby(["year", "field_category"])["available_slots"]
+            .sum()
+            .reset_index()
+        )
+        fig_heatmap_yr_cat = px.density_heatmap(
+            grouped_yr_cat,
+            x="year",
+            y="field_category",
+            z="available_slots",
+            title="Density: Slots over Time by Field",
+            histfunc="sum",
+        )
+        st.plotly_chart(fig_heatmap_yr_cat, use_container_width=True)
+
+with tab2:
+    st.markdown("### Regional and Institutional Distribution")
+    c1, c2 = st.columns(2)
+    with c1:
+        state_counts = (
+            filtered_df.groupby("university_state")["available_slots"]
+            .sum()
+            .reset_index()
+        )
+        fig3 = px.pie(
+            state_counts,
+            values="available_slots",
+            names="university_state",
+            title="Distribution of Slots by State",
+            hole=0.4,
+        )
+        st.plotly_chart(fig3, use_container_width=True)
+    with c2:
         univ_counts = (
             filtered_df.groupby("university_name")["available_slots"]
             .sum()
@@ -185,9 +230,6 @@ with tab2:
             .sort_values("available_slots", ascending=False)
             .head(10)
         )
-        st.markdown("**Top 10 Universities (Table)**")
-        st.dataframe(univ_counts, use_container_width=True, hide_index=True)
-    with c2:
         fig4 = px.bar(
             univ_counts,
             x="available_slots",
@@ -199,12 +241,156 @@ with tab2:
         fig4.update_layout(yaxis={"categoryorder": "total ascending"})
         st.plotly_chart(fig4, use_container_width=True)
 
+    # New Graph 3: Treemap
+    fig_treemap = px.treemap(
+        filtered_df,
+        path=[
+            px.Constant("All States"),
+            "university_state",
+            "university_type",
+            "university_name",
+        ],
+        values="available_slots",
+        title="Hierarchical view of Slots by State and University Type",
+    )
+    st.plotly_chart(fig_treemap, use_container_width=True)
+
+    c3, c4 = st.columns(2)
+    with c3:
+        # New Graph 4: Stacked Bar
+        top_states = (
+            filtered_df.groupby("university_state")["available_slots"]
+            .sum()
+            .nlargest(5)
+            .index
+        )
+        df_top_states = filtered_df[filtered_df["university_state"].isin(top_states)]
+        grouped_state_type = (
+            df_top_states.groupby(["university_state", "university_type"])[
+                "available_slots"
+            ]
+            .sum()
+            .reset_index()
+        )
+        fig_stacked_state_type = px.bar(
+            grouped_state_type,
+            x="university_state",
+            y="available_slots",
+            color="university_type",
+            title="University Types in Top 5 States",
+        )
+        st.plotly_chart(fig_stacked_state_type, use_container_width=True)
+    with c4:
+        # New Graph 5: Box Plot
+        fig_box_univ_type = px.box(
+            filtered_df,
+            x="university_type",
+            y="available_slots",
+            color="university_type",
+            title="Spread of Slot Sizes by University Type",
+        )
+        st.plotly_chart(fig_box_univ_type, use_container_width=True)
 
 with tab3:
-    fig5 = px.sunburst(
-        filtered_df,
-        path=["course_level", "field_category", "course_name"],
-        values="available_slots",
-        title="Course Hierarchy Breakdown",
-    )
-    st.plotly_chart(fig5, use_container_width=True)
+    st.markdown("### Academic Offerings Breakdown")
+    c1, c2 = st.columns(2)
+    with c1:
+        # New Graph 6: Donut Pie Chart
+        grouped_level = (
+            filtered_df.groupby("course_level")["available_slots"].sum().reset_index()
+        )
+        fig_pie_level = px.pie(
+            grouped_level,
+            values="available_slots",
+            names="course_level",
+            hole=0.5,
+            title="Slots Proportion by Course Level",
+        )
+        st.plotly_chart(fig_pie_level, use_container_width=True)
+    with c2:
+        # New Graph 7: Horizontal Bar Chart
+        top_spec = (
+            filtered_df.groupby("specialization")["available_slots"]
+            .sum()
+            .reset_index()
+            .sort_values("available_slots", ascending=False)
+            .head(10)
+        )
+        fig_bar_spec = px.bar(
+            top_spec,
+            x="available_slots",
+            y="specialization",
+            orientation="h",
+            color="available_slots",
+            title="Top 10 Specializations",
+        )
+        fig_bar_spec.update_layout(yaxis={"categoryorder": "total ascending"})
+        st.plotly_chart(fig_bar_spec, use_container_width=True)
+
+    c3, c4 = st.columns(2)
+    with c3:
+        fig5 = px.sunburst(
+            filtered_df,
+            path=["course_level", "field_category", "course_name"],
+            values="available_slots",
+            title="Course Hierarchy Breakdown",
+        )
+        st.plotly_chart(fig5, use_container_width=True)
+    with c4:
+        # New Graph 8: Stacked Histogram
+        grouped_cat_level = (
+            filtered_df.groupby(["field_category", "course_level"])["available_slots"]
+            .sum()
+            .reset_index()
+        )
+        fig_hist_cat_level = px.bar(
+            grouped_cat_level,
+            x="field_category",
+            y="available_slots",
+            color="course_level",
+            title="Field Category across Course Levels",
+            barmode="stack",
+        )
+        st.plotly_chart(fig_hist_cat_level, use_container_width=True)
+
+with tab4:
+    st.markdown("### Institutional Comparisons & Metrics")
+    c1, c2 = st.columns(2)
+    with c1:
+        # New Graph 9: Scatter Plot
+        grouped_univ = (
+            filtered_df.groupby(["university_name", "university_type"])
+            .agg({"available_slots": "sum", "estimated_selected_students": "sum"})
+            .reset_index()
+        )
+        fig_scatter_univ = px.scatter(
+            grouped_univ,
+            x="available_slots",
+            y="estimated_selected_students",
+            color="university_type",
+            hover_name="university_name",
+            size="available_slots",
+            title="Availability vs Expected Selection Location",
+        )
+        st.plotly_chart(fig_scatter_univ, use_container_width=True)
+    with c2:
+        # New Graph 10: Selection Rate Bar
+        grouped_cat_sel = (
+            filtered_df.groupby("field_category")
+            .agg({"available_slots": "sum", "estimated_selected_students": "sum"})
+            .reset_index()
+        )
+        # Ensure no division by zero
+        grouped_cat_sel = grouped_cat_sel[grouped_cat_sel["available_slots"] > 0]
+        grouped_cat_sel["selection_rate"] = (
+            grouped_cat_sel["estimated_selected_students"]
+            / grouped_cat_sel["available_slots"]
+        ) * 100
+        fig_bar_selection_rate = px.bar(
+            grouped_cat_sel,
+            x="field_category",
+            y="selection_rate",
+            color="selection_rate",
+            title="Avg Selection Rate (%) by Field Category",
+        )
+        st.plotly_chart(fig_bar_selection_rate, use_container_width=True)
