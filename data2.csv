@@ -1,0 +1,401 @@
+year,scholarship_type,scholarship_scheme,student_country,university_name,university_type,university_state,course_level,course_name,specialization,available_slots,estimated_selected_students,field_category
+2016,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,University of Delhi,Central,Delhi,UG,BSc,Mathematics,4,3,Science
+2016,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,University of Delhi,Central,Delhi,PG,MSc,Statistics,3,3,Science
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,Osmania University,State,Telangana,UG,BBA,Business Administration,5,4,Business/Management
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,Banaras Hindu University,Central,Uttar Pradesh,PG,MSc,Physics,3,2,Science
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,Gujarat University,State,Gujarat,UG,BBA,Business Administration,4,4,Business/Management
+2016,Fully Funded,Border Guard Bangladesh Scholarship,Bangladesh,NIT Rourkela,NIT,Odisha,UG,BTech,Mechanical Engineering,2,2,Engineering
+2016,Fully Funded,Border Guard Bangladesh Scholarship,Bangladesh,NIT Silchar,NIT,Assam,UG,BTech,Civil Engineering,2,1,Engineering
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,Tripura University,Central,Tripura,PG,MA,Economics,2,2,Arts/Humanities
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,Tripura University,Central,Tripura,UG,BA,English,3,2,Arts/Humanities
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,North Eastern Hill University (NEHU),Central,Meghalaya,PG,MSc,Botany,2,2,Science
+2016,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Assam University,Central,Assam,UG,BSc,Physics,3,3,Science
+2016,Fully Funded,Lata Mangeshkar Dance & Music Scholarship,Bangladesh,Rabindra Bharati University,State,West Bengal,UG,BFA,Fine Arts,4,3,Arts/Humanities
+2016,Fully Funded,Lata Mangeshkar Dance & Music Scholarship,Bangladesh,Rabindra Bharati University,State,West Bengal,PG,MFA,Music,3,3,Arts/Humanities
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,Visva Bharati University,Central,West Bengal,PG,MA,Sociology,3,2,Arts/Humanities
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,Kalyani University,State,West Bengal,PG,MSc,Mathematics,2,2,Science
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,Burdwan University,State,West Bengal,UG,BSc,Chemistry,3,2,Science
+2016,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Sikkim University,Central,Sikkim,PG,MA,Economics,2,1,Arts/Humanities
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,Tezpur University,Central,Assam,PG,MSc,Biotechnology,2,2,Science
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,Gauhati University,State,Assam,UG,BA,English,4,3,Arts/Humanities
+2016,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Jadavpur University,State,West Bengal,UG,BTech,Electrical Engineering,2,2,Engineering
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,Jadavpur University,State,West Bengal,PG,MA,English,3,2,Arts/Humanities
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,Calcutta University,State,West Bengal,UG,BSc,Economics,4,4,Science
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,Calcutta University,State,West Bengal,PG,MSc,Statistics,3,2,Science
+2016,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Aligarh Muslim University,Central,Uttar Pradesh,UG,BSc,Computer Science,3,3,Technology
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,Jamia Milia Islamia,Central,Delhi,UG,BSc,Mathematics,4,3,Science
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,Mysore University,State,Karnataka,PG,MBA,Business Administration,3,2,Business/Management
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,Savitribai Phule Pune University,State,Maharashtra,PG,MSc,Computer Science,3,2,Technology
+2016,Fully Funded,Border Guard Bangladesh Scholarship,Bangladesh,NIT Durgapur,NIT,West Bengal,UG,BTech,Electrical Engineering,2,1,Engineering
+2016,Fully Funded,Border Guard Bangladesh Scholarship,Bangladesh,NIT Agartala,NIT,Tripura,UG,BTech,Civil Engineering,1,1,Engineering
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,Assam Agricultural University,State,Assam,UG,BSc,Agriculture,2,2,Science
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,Mizoram University,Central,Mizoram,PG,MA,Sociology,1,1,Arts/Humanities
+2016,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Bangalore University,State,Karnataka,UG,BBA,Business Administration,4,4,Business/Management
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,Kalinga Institute (KIIT),Deemed,Odisha,UG,BTech,Computer Science,2,2,Engineering
+2016,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Vidyasagar University,State,West Bengal,PG,MSc,Botany,2,1,Science
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,North Bengal University,State,West Bengal,UG,BA,Economics,3,2,Arts/Humanities
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,Jawaharlal Nehru University (JNU),Central,Delhi,PG,MA,Sociology,3,3,Arts/Humanities
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,Jawaharlal Nehru University (JNU),Central,Delhi,PhD,PhD,Economics,2,1,Arts/Humanities
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,Cotton University,State,Assam,UG,BSc,Physics,2,2,Science
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,Cochin University of Science and Technology,State,Kerala,PG,MSc,Statistics,2,1,Science
+2016,Fully Funded,India Scholarship (Bangladesh) Scheme,Bangladesh,Kerala Agricultural University,State,Kerala,UG,BSc,Agriculture,2,2,Science
+2017,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,University of Delhi,Central,Delhi,UG,BSc,Mathematics,4,4,Science
+2017,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,University of Delhi,Central,Delhi,PG,MSc,Statistics,3,2,Science
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,Osmania University,State,Telangana,UG,BBA,Business Administration,5,4,Business/Management
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,Banaras Hindu University,Central,Uttar Pradesh,UG,BSc,Computer Science,4,3,Technology
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,Gujarat University,State,Gujarat,UG,BBA,Business Administration,4,3,Business/Management
+2017,Fully Funded,Border Guard Bangladesh Scholarship,Bangladesh,NIT Rourkela,NIT,Odisha,UG,BTech,Mechanical Engineering,2,2,Engineering
+2017,Fully Funded,Border Guard Bangladesh Scholarship,Bangladesh,NIT Silchar,NIT,Assam,UG,BTech,Computer Science,2,2,Engineering
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,Tripura University,Central,Tripura,PG,MA,Economics,2,2,Arts/Humanities
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,Tripura University,Central,Tripura,UG,BA,English,4,3,Arts/Humanities
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,North Eastern Hill University (NEHU),Central,Meghalaya,PG,MSc,Botany,2,2,Science
+2017,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Assam University,Central,Assam,UG,BSc,Physics,3,3,Science
+2017,Fully Funded,Lata Mangeshkar Dance & Music Scholarship,Bangladesh,Rabindra Bharati University,State,West Bengal,UG,BFA,Fine Arts,4,4,Arts/Humanities
+2017,Fully Funded,Lata Mangeshkar Dance & Music Scholarship,Bangladesh,Rabindra Bharati University,State,West Bengal,PG,MFA,Music,3,2,Arts/Humanities
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,Visva Bharati University,Central,West Bengal,PG,MA,Sociology,3,2,Arts/Humanities
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,Kalyani University,State,West Bengal,PG,MSc,Mathematics,2,2,Science
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,Burdwan University,State,West Bengal,UG,BSc,Chemistry,3,3,Science
+2017,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Sikkim University,Central,Sikkim,PG,MA,Economics,2,1,Arts/Humanities
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,Tezpur University,Central,Assam,PG,MSc,Biotechnology,2,2,Science
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,Gauhati University,State,Assam,UG,BA,English,4,4,Arts/Humanities
+2017,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Jadavpur University,State,West Bengal,UG,BTech,Electrical Engineering,2,2,Engineering
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,Jadavpur University,State,West Bengal,PG,MA,English,3,3,Arts/Humanities
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,Calcutta University,State,West Bengal,UG,BSc,Economics,4,3,Science
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,Calcutta University,State,West Bengal,PG,MSc,Statistics,3,2,Science
+2017,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Aligarh Muslim University,Central,Uttar Pradesh,UG,BSc,Computer Science,4,3,Technology
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,Jamia Milia Islamia,Central,Delhi,UG,BSc,Mathematics,4,3,Science
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,Mysore University,State,Karnataka,PG,MBA,Business Administration,3,3,Business/Management
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,Savitribai Phule Pune University,State,Maharashtra,PG,MSc,Computer Science,3,2,Technology
+2017,Fully Funded,Border Guard Bangladesh Scholarship,Bangladesh,NIT Durgapur,NIT,West Bengal,UG,BTech,Electrical Engineering,2,1,Engineering
+2017,Fully Funded,Border Guard Bangladesh Scholarship,Bangladesh,NIT Agartala,NIT,Tripura,UG,BTech,Civil Engineering,2,2,Engineering
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,Assam Agricultural University,State,Assam,UG,BSc,Agriculture,3,2,Science
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,Mizoram University,Central,Mizoram,PG,MA,Sociology,2,1,Arts/Humanities
+2017,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Bangalore University,State,Karnataka,UG,BBA,Business Administration,5,4,Business/Management
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,Kalinga Institute (KIIT),Deemed,Odisha,UG,BTech,Computer Science,3,2,Engineering
+2017,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Vidyasagar University,State,West Bengal,PG,MSc,Botany,2,2,Science
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,North Bengal University,State,West Bengal,UG,BA,Economics,3,3,Arts/Humanities
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,Jawaharlal Nehru University (JNU),Central,Delhi,PG,MA,Sociology,4,3,Arts/Humanities
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,Jawaharlal Nehru University (JNU),Central,Delhi,PhD,PhD,Economics,2,1,Arts/Humanities
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,Cotton University,State,Assam,UG,BSc,Physics,3,2,Science
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,Cochin University of Science and Technology,State,Kerala,PG,MSc,Statistics,2,2,Science
+2017,Fully Funded,ICCR A2A Portal,Bangladesh,Kerala Agricultural University,State,Kerala,UG,BSc,Agriculture,2,1,Science
+2018,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,University of Delhi,Central,Delhi,UG,BSc,Computer Science,5,4,Technology
+2018,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,University of Delhi,Central,Delhi,PG,MSc,Mathematics,4,3,Science
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,Osmania University,State,Telangana,UG,BBA,Business Administration,5,5,Business/Management
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,Banaras Hindu University,Central,Uttar Pradesh,UG,BSc,Computer Science,4,3,Technology
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,Gujarat University,State,Gujarat,UG,BBA,Business Administration,5,4,Business/Management
+2018,Fully Funded,Border Guard Bangladesh Scholarship,Bangladesh,NIT Rourkela,NIT,Odisha,UG,BTech,Mechanical Engineering,2,2,Engineering
+2018,Fully Funded,Border Guard Bangladesh Scholarship,Bangladesh,NIT Silchar,NIT,Assam,UG,BTech,Computer Science,2,1,Engineering
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,Tripura University,Central,Tripura,PG,MA,Economics,3,2,Arts/Humanities
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,Tripura University,Central,Tripura,UG,BA,English,4,3,Arts/Humanities
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,North Eastern Hill University (NEHU),Central,Meghalaya,PG,MSc,Botany,3,2,Science
+2018,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Assam University,Central,Assam,UG,BSc,Physics,4,3,Science
+2018,Fully Funded,Lata Mangeshkar Dance & Music Scholarship,Bangladesh,Rabindra Bharati University,State,West Bengal,UG,BFA,Fine Arts,4,4,Arts/Humanities
+2018,Fully Funded,Lata Mangeshkar Dance & Music Scholarship,Bangladesh,Rabindra Bharati University,State,West Bengal,PG,MFA,Music,3,3,Arts/Humanities
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,Visva Bharati University,Central,West Bengal,PG,MA,Sociology,4,3,Arts/Humanities
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,Kalyani University,State,West Bengal,PG,MSc,Mathematics,3,2,Science
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,Burdwan University,State,West Bengal,UG,BSc,Chemistry,4,3,Science
+2018,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Sikkim University,Central,Sikkim,PG,MA,Economics,2,2,Arts/Humanities
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,Tezpur University,Central,Assam,PG,MSc,Biotechnology,3,2,Science
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,Gauhati University,State,Assam,UG,BA,English,5,4,Arts/Humanities
+2018,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Jadavpur University,State,West Bengal,UG,BTech,Electrical Engineering,3,2,Engineering
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,Jadavpur University,State,West Bengal,PG,MA,English,4,3,Arts/Humanities
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,Calcutta University,State,West Bengal,UG,BSc,Economics,5,4,Science
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,Calcutta University,State,West Bengal,PG,MSc,Statistics,4,3,Science
+2018,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Aligarh Muslim University,Central,Uttar Pradesh,UG,BSc,Computer Science,4,3,Technology
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,Jamia Milia Islamia,Central,Delhi,UG,BSc,Mathematics,5,4,Science
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,Mysore University,State,Karnataka,PG,MBA,Business Administration,4,3,Business/Management
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,Savitribai Phule Pune University,State,Maharashtra,PG,MSc,Computer Science,4,3,Technology
+2018,Fully Funded,Border Guard Bangladesh Scholarship,Bangladesh,NIT Durgapur,NIT,West Bengal,UG,BTech,Electrical Engineering,2,2,Engineering
+2018,Fully Funded,Border Guard Bangladesh Scholarship,Bangladesh,NIT Agartala,NIT,Tripura,UG,BTech,Civil Engineering,2,1,Engineering
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,Assam Agricultural University,State,Assam,UG,BSc,Agriculture,4,3,Science
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,Mizoram University,Central,Mizoram,PG,MA,Sociology,2,2,Arts/Humanities
+2018,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Bangalore University,State,Karnataka,UG,BBA,Business Administration,6,5,Business/Management
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,Kalinga Institute (KIIT),Deemed,Odisha,UG,BTech,Computer Science,4,3,Engineering
+2018,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Vidyasagar University,State,West Bengal,PG,MSc,Botany,3,2,Science
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,North Bengal University,State,West Bengal,UG,BA,Economics,4,3,Arts/Humanities
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,Jawaharlal Nehru University (JNU),Central,Delhi,PG,MA,Sociology,5,4,Arts/Humanities
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,Jawaharlal Nehru University (JNU),Central,Delhi,PhD,PhD,Economics,2,2,Arts/Humanities
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,Cotton University,State,Assam,UG,BSc,Physics,4,3,Science
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,Cochin University of Science and Technology,State,Kerala,PG,MSc,Statistics,3,2,Science
+2018,Fully Funded,ICCR A2A Portal,Bangladesh,Kerala Agricultural University,State,Kerala,UG,BSc,Agriculture,3,2,Science
+2019,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,University of Delhi,Central,Delhi,UG,BSc,Computer Science,5,5,Technology
+2019,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,University of Delhi,Central,Delhi,PG,MSc,Data Science,4,3,Technology
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,Osmania University,State,Telangana,UG,BBA,Business Administration,6,5,Business/Management
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,Banaras Hindu University,Central,Uttar Pradesh,UG,BSc,Computer Science,5,4,Technology
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,Gujarat University,State,Gujarat,UG,BBA,Business Administration,5,4,Business/Management
+2019,Fully Funded,Border Guard Bangladesh Scholarship,Bangladesh,NIT Rourkela,NIT,Odisha,UG,BTech,Mechanical Engineering,2,2,Engineering
+2019,Fully Funded,Border Guard Bangladesh Scholarship,Bangladesh,NIT Silchar,NIT,Assam,UG,BTech,Software Engineering,2,2,Engineering
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,Tripura University,Central,Tripura,PG,MBA,Business Administration,3,3,Business/Management
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,Tripura University,Central,Tripura,UG,BSc,Computer Science,4,3,Technology
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,North Eastern Hill University (NEHU),Central,Meghalaya,PG,MA,English,3,2,Arts/Humanities
+2019,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Assam University,Central,Assam,UG,BSc,Chemistry,4,3,Science
+2019,Fully Funded,Lata Mangeshkar Dance & Music Scholarship,Bangladesh,Rabindra Bharati University,State,West Bengal,UG,BFA,Fine Arts,5,4,Arts/Humanities
+2019,Fully Funded,Lata Mangeshkar Dance & Music Scholarship,Bangladesh,Rabindra Bharati University,State,West Bengal,PG,MFA,Music,4,3,Arts/Humanities
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,Visva Bharati University,Central,West Bengal,PG,MSc,Mathematics,4,3,Science
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,Kalyani University,State,West Bengal,PG,MA,Economics,3,3,Arts/Humanities
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,Burdwan University,State,West Bengal,UG,BA,English,4,3,Arts/Humanities
+2019,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Sikkim University,Central,Sikkim,PG,MSc,Botany,2,2,Science
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,Tezpur University,Central,Assam,PG,MSc,Computer Science,3,2,Technology
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,Gauhati University,State,Assam,UG,BSc,Physics,5,4,Science
+2019,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Jadavpur University,State,West Bengal,UG,BTech,Mechanical Engineering,3,3,Engineering
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,Jadavpur University,State,West Bengal,PG,MTech,Software Engineering,4,3,Technology
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,Calcutta University,State,West Bengal,UG,BA,English,5,4,Arts/Humanities
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,Calcutta University,State,West Bengal,PG,MSc,Data Science,4,3,Technology
+2019,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Aligarh Muslim University,Central,Uttar Pradesh,UG,BSc,Mathematics,4,3,Science
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,Jamia Milia Islamia,Central,Delhi,UG,BSc,Mathematics,5,4,Science
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,Mysore University,State,Karnataka,PG,MSc,Computer Science,4,3,Technology
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,Savitribai Phule Pune University,State,Maharashtra,PG,MBA,Business Administration,4,4,Business/Management
+2019,Fully Funded,Border Guard Bangladesh Scholarship,Bangladesh,NIT Durgapur,NIT,West Bengal,UG,BTech,Electrical Engineering,2,1,Engineering
+2019,Fully Funded,Border Guard Bangladesh Scholarship,Bangladesh,NIT Agartala,NIT,Tripura,UG,BTech,Mechanical Engineering,2,2,Engineering
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,Assam Agricultural University,State,Assam,UG,BSc,Agriculture,4,3,Science
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,Mizoram University,Central,Mizoram,PG,MA,Economics,2,2,Arts/Humanities
+2019,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Bangalore University,State,Karnataka,UG,BBA,Business Administration,6,5,Business/Management
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,Kalinga Institute (KIIT),Deemed,Odisha,UG,BTech,Software Engineering,4,3,Engineering
+2019,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Vidyasagar University,State,West Bengal,PG,MA,English,3,2,Arts/Humanities
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,North Bengal University,State,West Bengal,UG,BSc,Physics,4,3,Science
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,Jawaharlal Nehru University (JNU),Central,Delhi,PG,MA,English,5,4,Arts/Humanities
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,Jawaharlal Nehru University (JNU),Central,Delhi,PhD,PhD,Sociology,2,2,Arts/Humanities
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,Cotton University,State,Assam,UG,BA,Economics,4,3,Arts/Humanities
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,Cochin University of Science and Technology,State,Kerala,PG,MCA,Computer Science,3,3,Technology
+2019,Fully Funded,ICCR A2A Portal,Bangladesh,Kerala Agricultural University,State,Kerala,UG,BSc,Agriculture,3,2,Science
+2020,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,University of Delhi,Central,Delhi,UG,BSc,Computer Science,5,4,Technology
+2020,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,University of Delhi,Central,Delhi,PG,MSc,Data Science,3,2,Technology
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,Osmania University,State,Telangana,UG,BBA,Business Administration,6,5,Business/Management
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,Banaras Hindu University,Central,Uttar Pradesh,UG,BSc,Computer Science,4,4,Technology
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,Gujarat University,State,Gujarat,UG,BBA,Business Administration,6,5,Business/Management
+2020,Fully Funded,Border Guard Bangladesh Scholarship,Bangladesh,NIT Rourkela,NIT,Odisha,UG,BTech,Mechanical Engineering,2,2,Engineering
+2020,Fully Funded,Border Guard Bangladesh Scholarship,Bangladesh,NIT Silchar,NIT,Assam,UG,BTech,Software Engineering,2,1,Engineering
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,Tripura University,Central,Tripura,PG,MBA,Business Administration,3,2,Business/Management
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,Tripura University,Central,Tripura,UG,BSc,Computer Science,4,3,Technology
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,North Eastern Hill University (NEHU),Central,Meghalaya,PG,MA,English,3,2,Arts/Humanities
+2020,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Assam University,Central,Assam,UG,BSc,Chemistry,4,3,Science
+2020,Fully Funded,Lata Mangeshkar Dance & Music Scholarship,Bangladesh,Rabindra Bharati University,State,West Bengal,UG,BFA,Fine Arts,5,4,Arts/Humanities
+2020,Fully Funded,Lata Mangeshkar Dance & Music Scholarship,Bangladesh,Rabindra Bharati University,State,West Bengal,PG,MFA,Music,4,3,Arts/Humanities
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,Visva Bharati University,Central,West Bengal,PG,MSc,Mathematics,4,3,Science
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,Kalyani University,State,West Bengal,PG,MA,Economics,3,2,Arts/Humanities
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,Burdwan University,State,West Bengal,UG,BA,English,4,3,Arts/Humanities
+2020,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Sikkim University,Central,Sikkim,PG,MSc,Botany,2,2,Science
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,Tezpur University,Central,Assam,PG,MSc,Computer Science,3,2,Technology
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,Gauhati University,State,Assam,UG,BSc,Physics,5,4,Science
+2020,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Jadavpur University,State,West Bengal,UG,BTech,Mechanical Engineering,3,2,Engineering
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,Jadavpur University,State,West Bengal,PG,MTech,Software Engineering,4,3,Technology
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,Calcutta University,State,West Bengal,UG,BA,English,5,4,Arts/Humanities
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,Calcutta University,State,West Bengal,PG,MSc,Data Science,4,3,Technology
+2020,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Aligarh Muslim University,Central,Uttar Pradesh,UG,BSc,Mathematics,4,3,Science
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,Jamia Milia Islamia,Central,Delhi,UG,BSc,Mathematics,5,4,Science
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,Mysore University,State,Karnataka,PG,MSc,Computer Science,4,3,Technology
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,Savitribai Phule Pune University,State,Maharashtra,PG,MBA,Business Administration,4,3,Business/Management
+2020,Fully Funded,Border Guard Bangladesh Scholarship,Bangladesh,NIT Durgapur,NIT,West Bengal,UG,BTech,Electrical Engineering,2,2,Engineering
+2020,Fully Funded,Border Guard Bangladesh Scholarship,Bangladesh,NIT Agartala,NIT,Tripura,UG,BTech,Mechanical Engineering,2,1,Engineering
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,Assam Agricultural University,State,Assam,UG,BSc,Agriculture,4,3,Science
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,Mizoram University,Central,Mizoram,PG,MA,Economics,2,2,Arts/Humanities
+2020,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Bangalore University,State,Karnataka,UG,BBA,Business Administration,6,5,Business/Management
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,Kalinga Institute (KIIT),Deemed,Odisha,UG,BTech,Software Engineering,4,3,Engineering
+2020,Fully Funded,ICCR (Bangladesh Scholarship Scheme),Bangladesh,Vidyasagar University,State,West Bengal,PG,MA,English,3,2,Arts/Humanities
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,North Bengal University,State,West Bengal,UG,BSc,Physics,4,3,Science
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,Jawaharlal Nehru University (JNU),Central,Delhi,PG,MA,English,5,4,Arts/Humanities
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,Jawaharlal Nehru University (JNU),Central,Delhi,PhD,PhD,Sociology,2,2,Arts/Humanities
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,Cotton University,State,Assam,UG,BA,Economics,4,3,Arts/Humanities
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,Cochin University of Science and Technology,State,Kerala,PG,MCA,Computer Science,3,2,Technology
+2020,Fully Funded,ICCR A2A Portal,Bangladesh,Kerala Agricultural University,State,Kerala,UG,BSc,Agriculture,3,2,Science
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,University of Delhi,Central,Delhi,UG,BSc,Data Science,8,7,Technology
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,University of Delhi,Central,Delhi,PG,MSc,Computer Science,6,5,Technology
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Osmania University,State,Telangana,UG,BBA,Business Administration,8,7,Business/Management
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Banaras Hindu University,Central,Uttar Pradesh,UG,BSc,Computer Science,6,5,Technology
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Gujarat University,State,Gujarat,UG,BBA,Business Administration,8,7,Business/Management
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,NIT Rourkela,NIT,Odisha,UG,BTech,Mechanical Engineering,3,3,Engineering
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,NIT Silchar,NIT,Assam,UG,BTech,AI / Machine Learning,2,2,Technology
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Tripura University,Central,Tripura,PG,MCA,Software Engineering,5,4,Technology
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Tripura University,Central,Tripura,UG,BSc,Computer Science,6,5,Technology
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,North Eastern Hill University (NEHU),Central,Meghalaya,PG,MSc,Data Science,4,3,Technology
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Assam University,Central,Assam,UG,BSc,Mathematics,6,5,Science
+2021,Fully Funded,Lata Mangeshkar Dance & Music Scholarship,Bangladesh,Rabindra Bharati University,State,West Bengal,UG,BFA,Fine Arts,5,4,Arts/Humanities
+2021,Fully Funded,Lata Mangeshkar Dance & Music Scholarship,Bangladesh,Rabindra Bharati University,State,West Bengal,PG,MFA,Music,4,3,Arts/Humanities
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Visva Bharati University,Central,West Bengal,PG,MSc,Mathematics,5,4,Science
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Kalyani University,State,West Bengal,PG,MSc,Computer Science,5,4,Technology
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Burdwan University,State,West Bengal,UG,BSc,Computer Science,6,5,Technology
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Sikkim University,Central,Sikkim,PG,MA,Economics,3,2,Arts/Humanities
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Tezpur University,Central,Assam,PG,MTech,Computer Science,4,3,Technology
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Gauhati University,State,Assam,UG,BSc,Physics,8,7,Science
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Jadavpur University,State,West Bengal,UG,BTech,Mechanical Engineering,5,4,Engineering
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Jadavpur University,State,West Bengal,PG,MTech,AI / Machine Learning,4,3,Technology
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Calcutta University,State,West Bengal,UG,BSc,Economics,8,7,Science
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Calcutta University,State,West Bengal,PG,MSc,Data Science,6,5,Technology
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Aligarh Muslim University,Central,Uttar Pradesh,UG,BSc,Mathematics,5,4,Science
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Jamia Milia Islamia,Central,Delhi,UG,BSc,Mathematics,6,5,Science
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Mysore University,State,Karnataka,PG,MCA,Computer Science,6,5,Technology
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Savitribai Phule Pune University,State,Maharashtra,PG,MBA,Business Administration,6,5,Business/Management
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,NIT Durgapur,NIT,West Bengal,UG,BTech,Electrical Engineering,3,2,Engineering
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,NIT Agartala,NIT,Tripura,UG,BTech,Computer Science,3,3,Engineering
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Assam Agricultural University,State,Assam,UG,BSc,Agriculture,6,5,Science
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Mizoram University,Central,Mizoram,PG,MA,Sociology,3,2,Arts/Humanities
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Bangalore University,State,Karnataka,UG,BBA,Business Administration,8,7,Business/Management
+2021,Fully Funded,ICCR A2A Portal,Bangladesh,Kalinga Institute (KIIT),Deemed,Odisha,UG,BTech,Software Engineering,5,4,Engineering
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Vidyasagar University,State,West Bengal,PG,MSc,Computer Science,5,4,Technology
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,North Bengal University,State,West Bengal,UG,BSc,Physics,6,5,Science
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Jawaharlal Nehru University (JNU),Central,Delhi,PG,MA,English,6,5,Arts/Humanities
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Jawaharlal Nehru University (JNU),Central,Delhi,PhD,PhD,AI / Machine Learning,3,2,Technology
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Cotton University,State,Assam,UG,BSc,Computer Science,6,5,Technology
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Cochin University of Science and Technology,State,Kerala,PG,MCA,Data Science,5,4,Technology
+2021,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Kerala Agricultural University,State,Kerala,UG,BSc,Agriculture,4,3,Science
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,University of Delhi,Central,Delhi,UG,BSc,Data Science,8,7,Technology
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,University of Delhi,Central,Delhi,PG,MSc,AI / Machine Learning,6,5,Technology
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Osmania University,State,Telangana,UG,BBA,Business Administration,9,8,Business/Management
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Banaras Hindu University,Central,Uttar Pradesh,UG,BSc,Computer Science,7,6,Technology
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Gujarat University,State,Gujarat,UG,BBA,Business Administration,8,7,Business/Management
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,NIT Rourkela,NIT,Odisha,UG,BTech,Computer Science,3,3,Engineering
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,NIT Silchar,NIT,Assam,UG,BTech,Software Engineering,3,2,Engineering
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Tripura University,Central,Tripura,PG,MCA,Software Engineering,5,4,Technology
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Tripura University,Central,Tripura,UG,BSc,AI / Machine Learning,6,5,Technology
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,North Eastern Hill University (NEHU),Central,Meghalaya,PG,MSc,Data Science,4,3,Technology
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Assam University,Central,Assam,UG,BSc,Mathematics,7,6,Science
+2022,Fully Funded,Lata Mangeshkar Dance & Music Scholarship,Bangladesh,Rabindra Bharati University,State,West Bengal,UG,BFA,Fine Arts,5,4,Arts/Humanities
+2022,Fully Funded,Lata Mangeshkar Dance & Music Scholarship,Bangladesh,Rabindra Bharati University,State,West Bengal,PG,MFA,Music,4,3,Arts/Humanities
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Visva Bharati University,Central,West Bengal,PG,MSc,Mathematics,6,5,Science
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Kalyani University,State,West Bengal,PG,MSc,Computer Science,5,4,Technology
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Burdwan University,State,West Bengal,UG,BSc,Computer Science,7,6,Technology
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Sikkim University,Central,Sikkim,PG,MA,Economics,3,3,Arts/Humanities
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Tezpur University,Central,Assam,PG,MTech,Computer Science,4,3,Technology
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Gauhati University,State,Assam,UG,BSc,Physics,8,7,Science
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Jadavpur University,State,West Bengal,UG,BTech,Computer Science,5,4,Engineering
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Jadavpur University,State,West Bengal,PG,MTech,AI / Machine Learning,4,4,Technology
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Calcutta University,State,West Bengal,UG,BSc,Economics,8,7,Science
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Calcutta University,State,West Bengal,PG,MSc,Data Science,6,5,Technology
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Aligarh Muslim University,Central,Uttar Pradesh,UG,BSc,Mathematics,6,5,Science
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Jamia Milia Islamia,Central,Delhi,UG,BSc,Mathematics,7,6,Science
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Mysore University,State,Karnataka,PG,MCA,Computer Science,6,5,Technology
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Savitribai Phule Pune University,State,Maharashtra,PG,MBA,Business Administration,7,6,Business/Management
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,NIT Durgapur,NIT,West Bengal,UG,BTech,Electrical Engineering,3,2,Engineering
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,NIT Agartala,NIT,Tripura,UG,BTech,Computer Science,3,3,Engineering
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Assam Agricultural University,State,Assam,UG,BSc,Agriculture,6,5,Science
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Mizoram University,Central,Mizoram,PG,MA,Sociology,3,3,Arts/Humanities
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Bangalore University,State,Karnataka,UG,BBA,Business Administration,8,7,Business/Management
+2022,Fully Funded,ICCR A2A Portal,Bangladesh,Kalinga Institute (KIIT),Deemed,Odisha,UG,BTech,Software Engineering,5,4,Engineering
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Vidyasagar University,State,West Bengal,PG,MSc,Computer Science,5,4,Technology
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,North Bengal University,State,West Bengal,UG,BSc,Physics,7,6,Science
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Jawaharlal Nehru University (JNU),Central,Delhi,PG,MA,English,7,6,Arts/Humanities
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Jawaharlal Nehru University (JNU),Central,Delhi,PhD,PhD,AI / Machine Learning,3,2,Technology
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Cotton University,State,Assam,UG,BSc,Computer Science,6,5,Technology
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Cochin University of Science and Technology,State,Kerala,PG,MCA,Data Science,5,4,Technology
+2022,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Kerala Agricultural University,State,Kerala,UG,BSc,Agriculture,4,4,Science
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,University of Delhi,Central,Delhi,UG,BSc,AI / Machine Learning,9,8,Technology
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,University of Delhi,Central,Delhi,PG,MSc,Data Science,7,6,Technology
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Osmania University,State,Telangana,UG,BBA,Business Administration,10,9,Business/Management
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Banaras Hindu University,Central,Uttar Pradesh,UG,BSc,Data Science,8,7,Technology
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Gujarat University,State,Gujarat,UG,BBA,Business Administration,9,8,Business/Management
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,NIT Rourkela,NIT,Odisha,UG,BTech,AI / Machine Learning,3,3,Technology
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,NIT Silchar,NIT,Assam,UG,BTech,Computer Science,3,2,Engineering
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Tripura University,Central,Tripura,PG,MCA,AI / Machine Learning,5,4,Technology
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Tripura University,Central,Tripura,UG,BSc,Data Science,6,5,Technology
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,North Eastern Hill University (NEHU),Central,Meghalaya,PG,MSc,Data Science,4,4,Technology
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Assam University,Central,Assam,UG,BSc,Mathematics,7,6,Science
+2023,Fully Funded,Lata Mangeshkar Dance & Music Scholarship,Bangladesh,Rabindra Bharati University,State,West Bengal,UG,BFA,Fine Arts,5,4,Arts/Humanities
+2023,Fully Funded,Lata Mangeshkar Dance & Music Scholarship,Bangladesh,Rabindra Bharati University,State,West Bengal,PG,MFA,Music,4,4,Arts/Humanities
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Visva Bharati University,Central,West Bengal,PG,MSc,Data Science,6,5,Technology
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Kalyani University,State,West Bengal,PG,MSc,Computer Science,5,4,Technology
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Burdwan University,State,West Bengal,UG,BSc,Data Science,7,6,Technology
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Sikkim University,Central,Sikkim,PG,MA,Economics,4,3,Arts/Humanities
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Tezpur University,Central,Assam,PG,MTech,Data Science,5,4,Technology
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Gauhati University,State,Assam,UG,BSc,Computer Science,8,7,Technology
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Jadavpur University,State,West Bengal,UG,BTech,Computer Science,5,4,Engineering
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Jadavpur University,State,West Bengal,PG,MTech,AI / Machine Learning,5,4,Technology
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Calcutta University,State,West Bengal,UG,BSc,Economics,8,7,Science
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Calcutta University,State,West Bengal,PG,MSc,Data Science,6,5,Technology
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Aligarh Muslim University,Central,Uttar Pradesh,UG,BSc,Computer Science,6,5,Technology
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Jamia Milia Islamia,Central,Delhi,UG,BSc,Mathematics,7,6,Science
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Mysore University,State,Karnataka,PG,MCA,Data Science,6,5,Technology
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Savitribai Phule Pune University,State,Maharashtra,PG,MBA,Business Administration,7,6,Business/Management
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,NIT Durgapur,NIT,West Bengal,UG,BTech,Computer Science,3,2,Engineering
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,NIT Agartala,NIT,Tripura,UG,BTech,Computer Science,3,3,Engineering
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Assam Agricultural University,State,Assam,UG,BSc,Agriculture,6,5,Science
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Mizoram University,Central,Mizoram,PG,MA,Sociology,4,3,Arts/Humanities
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Bangalore University,State,Karnataka,UG,BBA,Business Administration,9,8,Business/Management
+2023,Fully Funded,ICCR A2A Portal,Bangladesh,Kalinga Institute (KIIT),Deemed,Odisha,UG,BTech,Data Science,5,4,Technology
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Vidyasagar University,State,West Bengal,PG,MSc,Computer Science,5,4,Technology
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,North Bengal University,State,West Bengal,UG,BSc,Computer Science,7,6,Technology
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Jawaharlal Nehru University (JNU),Central,Delhi,PG,MA,Economics,7,6,Arts/Humanities
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Jawaharlal Nehru University (JNU),Central,Delhi,PhD,PhD,AI / Machine Learning,3,2,Technology
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Cotton University,State,Assam,UG,BSc,Data Science,6,5,Technology
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Cochin University of Science and Technology,State,Kerala,PG,MCA,AI / Machine Learning,5,4,Technology
+2023,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Kerala Agricultural University,State,Kerala,UG,BSc,Agriculture,5,4,Science
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,University of Delhi,Central,Delhi,UG,BSc,AI / Machine Learning,10,9,Technology
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,University of Delhi,Central,Delhi,PG,MSc,Data Science,8,7,Technology
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Osmania University,State,Telangana,UG,BBA,Business Administration,11,10,Business/Management
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Banaras Hindu University,Central,Uttar Pradesh,UG,BSc,AI / Machine Learning,8,7,Technology
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Gujarat University,State,Gujarat,UG,BBA,Business Administration,10,9,Business/Management
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,NIT Rourkela,NIT,Odisha,UG,BTech,AI / Machine Learning,3,2,Technology
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,NIT Silchar,NIT,Assam,UG,BTech,Computer Science,3,3,Engineering
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Tripura University,Central,Tripura,PG,MCA,AI / Machine Learning,6,5,Technology
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Tripura University,Central,Tripura,UG,BSc,Data Science,7,6,Technology
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,North Eastern Hill University (NEHU),Central,Meghalaya,PG,MSc,Data Science,5,4,Technology
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Assam University,Central,Assam,UG,BSc,Computer Science,8,7,Technology
+2024,Fully Funded,Lata Mangeshkar Dance & Music Scholarship,Bangladesh,Rabindra Bharati University,State,West Bengal,UG,BFA,Fine Arts,5,4,Arts/Humanities
+2024,Fully Funded,Lata Mangeshkar Dance & Music Scholarship,Bangladesh,Rabindra Bharati University,State,West Bengal,PG,MFA,Music,4,3,Arts/Humanities
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Visva Bharati University,Central,West Bengal,PG,MSc,Data Science,7,6,Technology
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Kalyani University,State,West Bengal,PG,MSc,AI / Machine Learning,6,5,Technology
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Burdwan University,State,West Bengal,UG,BSc,Data Science,8,7,Technology
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Sikkim University,Central,Sikkim,PG,MA,Economics,4,4,Arts/Humanities
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Tezpur University,Central,Assam,PG,MTech,Data Science,5,4,Technology
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Gauhati University,State,Assam,UG,BSc,Computer Science,9,8,Technology
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Jadavpur University,State,West Bengal,UG,BTech,Computer Science,6,5,Engineering
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Jadavpur University,State,West Bengal,PG,MTech,AI / Machine Learning,5,4,Technology
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Calcutta University,State,West Bengal,UG,BSc,Computer Science,9,8,Technology
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Calcutta University,State,West Bengal,PG,MSc,Data Science,7,6,Technology
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Aligarh Muslim University,Central,Uttar Pradesh,UG,BSc,Computer Science,7,6,Technology
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Jamia Milia Islamia,Central,Delhi,UG,BSc,Data Science,8,7,Technology
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Mysore University,State,Karnataka,PG,MCA,Data Science,7,6,Technology
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Savitribai Phule Pune University,State,Maharashtra,PG,MBA,Business Administration,8,7,Business/Management
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,NIT Durgapur,NIT,West Bengal,UG,BTech,Computer Science,3,3,Engineering
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,NIT Agartala,NIT,Tripura,UG,BTech,Data Science,4,3,Technology
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Assam Agricultural University,State,Assam,UG,BSc,Agriculture,7,6,Science
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Mizoram University,Central,Mizoram,PG,MA,Sociology,4,3,Arts/Humanities
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Bangalore University,State,Karnataka,UG,BBA,Business Administration,10,9,Business/Management
+2024,Fully Funded,ICCR A2A Portal,Bangladesh,Kalinga Institute (KIIT),Deemed,Odisha,UG,BTech,Data Science,6,5,Technology
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Vidyasagar University,State,West Bengal,PG,MSc,AI / Machine Learning,6,5,Technology
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,North Bengal University,State,West Bengal,UG,BSc,Computer Science,8,7,Technology
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Jawaharlal Nehru University (JNU),Central,Delhi,PG,MA,Economics,8,7,Arts/Humanities
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Jawaharlal Nehru University (JNU),Central,Delhi,PhD,PhD,AI / Machine Learning,4,3,Technology
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Cotton University,State,Assam,UG,BSc,Data Science,7,6,Technology
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Cochin University of Science and Technology,State,Kerala,PG,MCA,AI / Machine Learning,6,5,Technology
+2024,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Kerala Agricultural University,State,Kerala,UG,BSc,Agriculture,5,4,Science
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,University of Delhi,Central,Delhi,UG,BSc,Data Science,10,9,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,University of Delhi,Central,Delhi,PG,MSc,AI / Machine Learning,9,8,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Osmania University,State,Telangana,UG,BBA,Business Administration,12,10,Business/Management
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Banaras Hindu University,Central,Uttar Pradesh,UG,BSc,AI / Machine Learning,9,8,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Gujarat University,State,Gujarat,UG,BBA,Business Administration,10,9,Business/Management
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,NIT Rourkela,NIT,Odisha,UG,BTech,Data Science,4,3,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,NIT Silchar,NIT,Assam,UG,BTech,AI / Machine Learning,4,3,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Tripura University,Central,Tripura,PG,MCA,AI / Machine Learning,7,6,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Tripura University,Central,Tripura,UG,BSc,Data Science,8,7,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,North Eastern Hill University (NEHU),Central,Meghalaya,PG,MSc,Data Science,6,5,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Assam University,Central,Assam,UG,BSc,Computer Science,9,8,Technology
+2025,Fully Funded,Lata Mangeshkar Dance & Music Scholarship,Bangladesh,Rabindra Bharati University,State,West Bengal,UG,BFA,Fine Arts,6,5,Arts/Humanities
+2025,Fully Funded,Lata Mangeshkar Dance & Music Scholarship,Bangladesh,Rabindra Bharati University,State,West Bengal,PG,MFA,Music,5,4,Arts/Humanities
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Visva Bharati University,Central,West Bengal,PG,MSc,Data Science,8,7,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Kalyani University,State,West Bengal,PG,MSc,AI / Machine Learning,7,6,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Burdwan University,State,West Bengal,UG,BSc,Data Science,9,8,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Sikkim University,Central,Sikkim,PG,MA,Economics,5,4,Arts/Humanities
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Tezpur University,Central,Assam,PG,MTech,Data Science,6,5,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Gauhati University,State,Assam,UG,BSc,Computer Science,10,9,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Jadavpur University,State,West Bengal,UG,BTech,Computer Science,7,6,Engineering
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Jadavpur University,State,West Bengal,PG,MTech,AI / Machine Learning,6,5,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Calcutta University,State,West Bengal,UG,BSc,Computer Science,10,9,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Calcutta University,State,West Bengal,PG,MSc,Data Science,8,7,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Aligarh Muslim University,Central,Uttar Pradesh,UG,BSc,Computer Science,8,7,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Jamia Milia Islamia,Central,Delhi,UG,BSc,Data Science,9,8,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Mysore University,State,Karnataka,PG,MCA,Data Science,8,7,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Savitribai Phule Pune University,State,Maharashtra,PG,MBA,Business Administration,9,8,Business/Management
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,NIT Durgapur,NIT,West Bengal,UG,BTech,Computer Science,4,3,Engineering
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,NIT Agartala,NIT,Tripura,UG,BTech,Data Science,4,4,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Assam Agricultural University,State,Assam,UG,BSc,Agriculture,8,7,Science
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Mizoram University,Central,Mizoram,PG,MA,Sociology,5,4,Arts/Humanities
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Bangalore University,State,Karnataka,UG,BBA,Business Administration,11,10,Business/Management
+2025,Fully Funded,ICCR A2A Portal,Bangladesh,Kalinga Institute (KIIT),Deemed,Odisha,UG,BTech,Data Science,7,6,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Vidyasagar University,State,West Bengal,PG,MSc,AI / Machine Learning,7,6,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,North Bengal University,State,West Bengal,UG,BSc,Computer Science,9,8,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Jawaharlal Nehru University (JNU),Central,Delhi,PG,MA,Economics,9,8,Arts/Humanities
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Jawaharlal Nehru University (JNU),Central,Delhi,PhD,PhD,AI / Machine Learning,5,4,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Cotton University,State,Assam,UG,BSc,Data Science,8,7,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Cochin University of Science and Technology,State,Kerala,PG,MCA,AI / Machine Learning,7,6,Technology
+2025,Fully Funded,Suborno Jayanti Scholarship,Bangladesh,Kerala Agricultural University,State,Kerala,UG,BSc,Agriculture,6,5,Science
