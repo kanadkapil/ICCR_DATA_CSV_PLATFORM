@@ -406,6 +406,21 @@ with tab5:
         col_form1, col_form2 = st.columns(2)
 
         with col_form1:
+            target_university = st.selectbox(
+                "Target University",
+                options=sorted(df["university_name"].dropna().unique().tolist()),
+            )
+            # Dynamically filter course levels based on the selected university
+            valid_course_levels = sorted(
+                df[df["university_name"] == target_university]["course_level"]
+                .dropna()
+                .unique()
+                .tolist()
+            )
+            user_course_lvl = st.selectbox(
+                "Target Course Level",
+                options=valid_course_levels if valid_course_levels else ["N/A"],
+            )
             user_cgpa = st.number_input(
                 "Your CGPA (out of 10.0)",
                 min_value=0.0,
@@ -413,22 +428,14 @@ with tab5:
                 value=8.0,
                 step=0.1,
             )
-            user_course_lvl = st.selectbox(
-                "Target Course Level",
-                options=sorted(df["course_level"].dropna().unique().tolist()),
-            )
+
+        with col_form2:
             user_exp = st.number_input(
                 "Years of Work/Research Experience",
                 min_value=0,
                 max_value=20,
                 value=0,
                 step=1,
-            )
-
-        with col_form2:
-            target_university = st.selectbox(
-                "Target University",
-                options=sorted(df["university_name"].dropna().unique().tolist()),
             )
             user_publications = st.number_input(
                 "Number of Publications (if any)",
@@ -437,42 +444,101 @@ with tab5:
                 value=0,
                 step=1,
             )
+            st.write("")  # Spacing
+            st.write("")  # Spacing
             is_language_cert = st.checkbox("Have IELTS/TOEFL Certification?")
 
     if st.button("Predict Admission Chances", type="primary"):
-        # Get historical data for the selected university and course level
+        # Since Course Level is dynamically filtered, this will almost always find data
         history_df = df[
             (df["university_name"] == target_university)
             & (df["course_level"] == user_course_lvl)
         ]
 
         if len(history_df) == 0:
-            st.warning(
-                "Insufficient historical data for this specific University + Course Level combination. Showing a general estimate instead."
-            )
+            # Silent fallback just in case data is extremely sparse
             history_df = df[df["university_name"] == target_university]
 
         if len(history_df) == 0:
-            history_df = df  # Fallback to global
+            history_df = df  # Global fallback
 
         # Calculate base acceptance rate from historical stats
+        import math
+        import plotly.graph_objects as go
+
         total_slots = history_df["available_slots"].sum()
         total_selected = history_df["estimated_selected_students"].sum()
 
-        base_rate = (total_selected / total_slots) if total_slots > 0 else 0.5
+        fill_rate = (total_selected / total_slots) if total_slots > 0 else 0.5
 
-        # Modifier limits (Algorithm simulated for estimations)
-        cgpa_mod = (user_cgpa - 7.5) * 0.1  # If cgpa is 9.5 -> +20%, if 6.0 -> -15%
-        exp_mod = min(user_exp * 0.02, 0.10)  # Up to 10% boost for experience
-        pub_mod = min(
-            user_publications * 0.03, 0.15
-        )  # Up to 15% boost for publications
-        cert_mod = 0.05 if is_language_cert else 0.0  # 5% boost for language cert
+        # Determine base competitiveness via Logit
+        # If fill rate is high, it's competitive (lower base chance).
+        if fill_rate >= 0.95:
+            base_z = -1.2  # ~23% base chance
+            comp_level = "Very High"
+        elif fill_rate >= 0.80:
+            base_z = -0.6  # ~35% base chance
+            comp_level = "High"
+        elif fill_rate >= 0.60:
+            base_z = 0.0  # ~50% base chance
+            comp_level = "Moderate"
+        else:
+            base_z = 0.5  # ~62% base chance
+            comp_level = "Accessible"
 
-        final_probability = base_rate + cgpa_mod + exp_mod + pub_mod + cert_mod
+        # Modifiers (Z-score components)
+        # Average CGPA assumed around 7.0 for an average applicant.
+        if user_cgpa >= 7.0:
+            z_cgpa = (user_cgpa - 7.0) * 1.2  # E.g., 9.5 CGPA gives +3.0 Z-score
+        else:
+            z_cgpa = (user_cgpa - 7.0) * 1.6  # Harsher penalty below average
 
-        # Enforce bounds [5%, 95%]
-        final_probability = max(0.05, min(0.95, final_probability))
+        is_pg_or_phd = user_course_lvl in [
+            "PG",
+            "PhD",
+            "MPhil",
+            "MTech",
+            "MSc",
+            "MA",
+            "MBA",
+            "MCA",
+        ]
+
+        if is_pg_or_phd:
+            # Diminishing returns using sqrt
+            z_exp = math.sqrt(user_exp) * 0.5
+            z_pub = math.sqrt(user_publications) * 0.8
+        else:
+            z_exp = math.sqrt(user_exp) * 0.2
+            z_pub = math.sqrt(user_publications) * 0.3
+
+        z_cert = 0.6 if is_language_cert else 0.0
+
+        # Sigmoid function for probability
+        def sigmoid(x):
+            return 1 / (1 + math.exp(-x))
+
+        # Calculate incremental impacts for waterfall bar chart
+        p_base = sigmoid(base_z)
+
+        val_after_cgpa = base_z + z_cgpa
+        p_after_cgpa = sigmoid(val_after_cgpa)
+        impact_cgpa = p_after_cgpa - p_base
+
+        val_after_exp = val_after_cgpa + z_exp
+        p_after_exp = sigmoid(val_after_exp)
+        impact_exp = p_after_exp - p_after_cgpa
+
+        val_after_pub = val_after_exp + z_pub
+        p_after_pub = sigmoid(val_after_pub)
+        impact_pub = p_after_pub - p_after_exp
+
+        val_after_cert = val_after_pub + z_cert
+        final_prob_raw = sigmoid(val_after_cert)
+        impact_cert = final_prob_raw - p_after_pub
+
+        # Enforce bounds
+        final_probability = max(0.01, min(0.99, final_prob_raw))
 
         # Display Results
         st.divider()
@@ -484,6 +550,11 @@ with tab5:
             st.metric(
                 "Estimated Admission Probability", f"{final_probability * 100:.1f}%"
             )
+
+            st.caption(
+                f"University Competitiveness: **{comp_level}** (Historical Fill Rate: {fill_rate * 100:.1f}%)"
+            )
+
             if final_probability >= 0.75:
                 st.success("Excellent Chances! You have a highly competitive profile.")
             elif final_probability >= 0.50:
@@ -499,34 +570,65 @@ with tab5:
 
         with res_col2:
             st.markdown("#### Probability Factors")
-            factors = pd.DataFrame(
-                {
-                    "Factor": [
-                        "Historical Acceptance Base",
-                        "CGPA Impact",
-                        "Experience Bonus",
-                        "Publications Bonus",
-                        "Certifications Bonus",
+
+            fig_factors = go.Figure(
+                go.Waterfall(
+                    name="Impact",
+                    orientation="v",
+                    measure=[
+                        "absolute",
+                        "relative",
+                        "relative",
+                        "relative",
+                        "relative",
+                        "total",
                     ],
-                    "Impact": [base_rate, cgpa_mod, exp_mod, pub_mod, cert_mod],
-                }
+                    x=[
+                        "Base Chance",
+                        "CGPA Bonus",
+                        "Experience",
+                        "Publications",
+                        "Certifications",
+                        "Final Predict",
+                    ],
+                    textposition="outside",
+                    text=[
+                        f"{p_base * 100:.1f}%",
+                        f"{impact_cgpa * 100:+.1f}%",
+                        f"{impact_exp * 100:+.1f}%",
+                        f"{impact_pub * 100:+.1f}%",
+                        f"{impact_cert * 100:+.1f}%",
+                        f"{final_probability * 100:.1f}%",
+                    ],
+                    y=[
+                        p_base,
+                        impact_cgpa,
+                        impact_exp,
+                        impact_pub,
+                        impact_cert,
+                        final_probability,
+                    ],
+                    connector={"line": {"color": "rgb(63, 63, 63)"}},
+                    decreasing={"marker": {"color": "#ef553b"}},
+                    increasing={"marker": {"color": "#00cc96"}},
+                    totals={"marker": {"color": "#636efa"}},
+                )
             )
-            # Filter zero/negative impacts out conditionally or just show them
-            fig_factors = px.bar(
-                factors,
-                x="Factor",
-                y="Impact",
-                title="How Your Profile Influences Admission Chances",
-                text=[f"{v * 100:+.1f}%" for v in factors["Impact"]],
-                color="Factor",
+
+            fig_factors.update_layout(
+                title="True Waterfall Breakdown of Profile Impact",
+                showlegend=False,
+                waterfallgap=0.3,
+                margin=dict(t=40, b=40, l=40, r=40),
             )
-            fig_factors.update_layout(showlegend=False)
+
             st.plotly_chart(fig_factors, use_container_width=True)
 
         st.caption(
-            "Note: This is a simulated algorithmic prediction built for research and planning purposes. Actual admission decisions are made by university committees based on comprehensive profile reviews and available seats."
+            "Note: This uses a continuous Logistic Regression simulation (Logit function) driven by Diminishing Returns logic. "
+            "Higher historical fill rates massively drop your initial base chances. "
+            "Actual admission decisions are made holistically by respective university committees."
         )
-
 
 st.divider()
 st.markdown(
